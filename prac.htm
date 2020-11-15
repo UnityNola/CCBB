@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCBB</title>
+<style>
+	*{
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		box-sizing: border-box;
+	}
+	.header{
+		padding: 30px;
+		background-color: seagreen;
+		border: 3px solid black;
+		text-align: center;
+		/*Lesson: div will automatically stretch 
+		to the edg*/
+	}
+	.menu{
+		display: flex;
+		justify-content: space-around;
+		background-color: seagreen;	
+		border: 2px solid black;
+	}
+	
+	.menu {
+		overflow: hidden;
+	}
+	.menu a{
+		display: block;	
+		text-align: center;
+		padding: 14px 16px;
+		width: 100%;
+		text-decoration: none;
+		color: black;
+	}
+	.menu a:hover{
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		color: white;
+		
+	}
+
+	.column{
+		background-color: seagreen;
+		float: left;
+	}
+
+	.column .left{
+		width: 70%;
+		padding: 20px;
+		text-align: center;
+		border-right: 2px solid black;
+	}
+
+	.column .right{
+		width: 30%;
+		padding: 20px;
+	}
+
+/**old code
+	.card{
+		background-color: gray;
+		padding: 5px;
+	}*//
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+	<h1>Chitty Chitty Bang Bang</h1>
+	<!--insert bang bang sound on opening-->
+</div>
+
+
+<div class="menu">
+	
+	<a href="">Characters</a>
+	<a href="">Acclaim</a>
+	<a href="">Songs</a>
+	<a href="">Store</a>
+	
+	<!--NO LIST-->
+</div>
+
+
+
+	<div class="row">
+		<div class="column left">
+		"Hey you, pretty Chitty Bang Bang"
+		Chitty Chitty Bang Bang was released December 1968,
+Rated G and marketed as a kids movie the run time is 2h 24min. A
+Fantasy, Family, Adventure, and Musical.
+		Synopsis: A down on his luck inventor and single father
+, Caractacus Potts buys and fixes a junkyard for his childer; 
+Jeremy and Jemina Potts. They name the car Chitty Chitty Bang Bang
+for the odd sound it makes and with their new friend Truly 
+Scrumptious they drive down to the beach to start a grand adventure.
+		</div>
+	
+	
+
+		<div class="column right">
+		<p> some words</p>
+		<div>
+	</div>
+
+</div>
+</body>
+</html>
